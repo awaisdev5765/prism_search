@@ -1,0 +1,30 @@
+name: prism_search
+description: >-
+  Adaptive search for Flutter — inline field with suggestions on desktop,
+  full-screen search page on phones, with debouncing and match highlighting.
+  Part of the Prism package family.
+version: 0.1.0
+repository: https://github.com/awaisdev5765/prism_search
+issue_tracker: https://github.com/awaisdev5765/prism_search/issues
+topics:
+  - search
+  - widget
+  - ui
+  - autocomplete
+
+environment:
+  sdk: ^3.9.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  prism_adaptive_scaffold: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true

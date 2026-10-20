@@ -1,0 +1,15 @@
+name: prism_search_example
+description: Demo app for prism_search.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  prism_search:
+    path: ..
+
+flutter:
+  uses-material-design: true
